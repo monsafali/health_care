@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+
+
+* {
+    box-sizing: border-box;
+    
+}
+
+
+
+/* navbar */
+.logo{
+    height: 100px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.navbar-nav .nav-link {
+    text-transform: uppercase;
+}
+
+/* dashboard */
+
+#dashboard{
+    margin-top: 50px;
+    background-image: url(assets/backauth.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100;
+    height: 100vh;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+
+.content{
+    height: 500px;
+    width: 500px;
+    /* border: 1px solid black; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 200px;
+    padding: 20px;
+    background-color: #ffffffe7;
+    border-radius: 20px;
+}
+
+.div {
+    color: #0e0101;
+    margin-top: 20px;
+    /* height: 40px; */
+    width: 400px;
+    
+}
+.div input {
+    padding: 15px;
+    width: 100%;
+    border-radius: 7px;
+}
+
+.content button {
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.content button:hover{
+    background-color: black;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+
+}
+/* Chatbot */
+
+#chatbot{
+    margin-top: 100px;
+    background-image: url(assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.chatbot {
+    position: absolute;
+    width: 500px;
+    min-height: 500px;
+    background-color: #fff;
+    margin: 0 auto;
+    /* padding: 100px; */
+    margin-top: 100px;
+    margin-left: 50px;
+    /* text-align: center; */
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.chatbot h2,
+.chatbot p {
+    color: black;
+}
+
+.chatbot >input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.chatbot button{
+    padding: 10px;
+    border-radius: 5px;
+}
+.chatbot button:hover{
+    background-color: black;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+
+}
+
+
+
+/* login*/
+
+
+#login{
+    margin-top: 100px;
+}
+
+
+.container {
+    background-image: url(assets/backg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    /* margin-bottom: 100px; */
+    position: relative;
+   
+}
+
+
+.logintxt{
+    height: 350px;
+    width: 30%;
+    border: 1px solid black;
+    top: 150px;
+    left: 200px;
+    position: absolute;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+
+.container h1 {
+    color: red;
+    /* text-align: center; */
+    margin-bottom: 15px;
+
+}
+
+.container a {
+    text-decoration: none;
+    color: darkblue;
+    
+}
+
+.form-control {
+    position: relative;
+    margin: 10px 0 20px;
+    width: 100%;
+}
+
+.form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #000;
+    display: block;
+    padding: 10px 0;
+    font-size: 15px;
+    color: #000;
+}
+.form-control input:focus, 
+.form-control input:valid {
+    outline: 0;
+    /* border: none; */
+    border-bottom-color: rgb(236, 66, 14);
+}
+
+
+
+.form-control label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+
+.form-control label span {
+    display: inline-block;
+    font-size: 18px;
+    min-width: 5px;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+    color: rgb(12, 190, 250);
+    transform: translateY(-30px);
+    /* transition: 0.3s ease-in; */
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+
+
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    /* width: 80%; */
+    padding: 15px;
+    background-color: #000;
+    color: #fff;
+    font-family: inherit;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+
+
+.btn:focus {
+    outline: 0;
+}
+.btn:active {
+    transform: scale(0.98);
+}
+
+
+.text {
+    color: black;
+}
+
+
+
+/* Sign Up */
+
+#signup{
+    margin-top: 100px;
+}
+
+.container2 {
+    background-image: url(assets/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    /* margin-bottom: 100px; */
+    position: relative;  
+}
+
+
+.singup {
+    height:  480px;
+    width: 450px;
+    background-color: #fff;
+    top: 100px;
+    left: 150px;
+    position: absolute;
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+
+.form-group input{
+    width: 350px;
+    height: 50px;
+}
